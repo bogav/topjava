@@ -26,15 +26,15 @@ public class UserMealWithExceed {
     public LocalDateTime getDateTime() {
         return dateTime;
     }
-
+    // Для проверки результата, в основной задаче не требуется
     public String getDescription() {
         return description;
     }
-
+    // Для проверки результата, в основной задаче не требуется
     public int getCalories() {
         return calories;
     }
-
+    // Для проверки результата, в основной задаче не требуется
     public boolean isExceed() {
         return exceed;
     }
