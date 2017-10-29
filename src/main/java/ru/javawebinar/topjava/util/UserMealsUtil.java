@@ -39,7 +39,7 @@ public class UserMealsUtil {
                 result.add(new UserMealWithExceed(item.getDateTime(), item.getDescription(), item.getCalories(),
                         caloriesTotal.get(item.getDateTime().toLocalDate()) > caloriesPerDay));
 
-
+        // Для проверки результата, в основной задаче не требуется
         for (UserMealWithExceed item : result)
             System.out.println(item.getDateTime() + " : " + item.getDescription() + " : " + item.getCalories() + " : " + item.isExceed());
 

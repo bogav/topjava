@@ -22,6 +22,7 @@ public class UserMealWithExceed {
         this.exceed = exceed;
     }
 
+    // Для проверки результата, в основной задаче не требуется
     public LocalDateTime getDateTime() {
         return dateTime;
     }
